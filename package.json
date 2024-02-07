@@ -5,7 +5,8 @@
   "main": "src/api.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon src/api.js"
+    "dev": "nodemon src/api.js",
+    "format": "prettier --write \"src/**/*.js\""
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,7 @@
     "xlsx-populate": "^1.21.0"
   },
   "devDependencies": {
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "prettier": "^3.2.5"
   }
 }
